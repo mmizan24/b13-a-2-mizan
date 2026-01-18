@@ -30,6 +30,7 @@
 
 } 
 .pry-btn{
+    display: flex;
     color: white;
     width: 130px;
     height: 50px;
@@ -37,6 +38,9 @@
     justify-content: center;
     background: linear-gradient(to right,#FB09B4,#9100F8);
     align-items: center;
+    gap:5px;
+    cursor: pointer;
+    
 }
 .menu{
     display: flex;
@@ -46,7 +50,10 @@
 
 #pry-img{
     width: 20px;
-    color: white;
-    justify-content: space-between;
+    /* filter: brightness(0) invert(1); */
+    background: none;
+    filter: invert(1);
+    /* color: white;
+    justify-content: space-between; */
     
 }
