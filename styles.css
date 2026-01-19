@@ -82,7 +82,7 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 1600px;
-        height:760px;
+        height:500px;
         margin-left:-150px;
         
        justify-items: center;
@@ -113,7 +113,7 @@
 
 #ist_back_img {
    z-index: 1;
-   background-color: ;
+   height: 500px;
 }
 
 #round_ball {
@@ -134,13 +134,124 @@
   align-items: center;      /* horizontal center */
   justify-content: center;  /* vertical center */
   text-align: center;
+
+  position: relative;
+   /* top: 60%; 
+   left: -50%;  */
+ /* position: absolute; */
+  /* top: 60%;
+  left: 50%; */
+  /* transform: translate(-20%, -20%); */
   /* border: 2px solid white; */
   /* background: blue; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* height: 100vh;            */
 }
 
+#tech_tex{
+Font-style: Extra Bold;
+font-size: 60px;
+font-weight: 800;
 
+}
+
+.btn-2ndpart{
+    display: flex;
+    gap:20px;
+    margin-top: -30px;
+
+   align-items: center;
+
+
+
+}
+#txt_1{
+    margin-top:-80px;
+}
+
+#btn-L{
+display: flex;
+width: 201px;
+height: 44px;
+padding: 12px 20px 12px 20px;
+border-radius: 70px;
+  cursor: pointer;
+
+background: linear-gradient(to right,rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+
+
+
+
+
+
+}
+
+#spotify{
+    background: none ;
+    margin-right: 10px;
+   
+
+}
+
+#btn-s{
+    
+
+width: 147px;
+height: 44px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:20px;
+padding: 12px 20px 12px 20px;
+box-sizing: border-box;
+border: 1px solid #00FF88;
+border-radius:  75px;
+background: none;
+font-size: 15px;
+
+    
+
+}
+
+.about{
+    width: 1200px;
+    height: 148px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:150px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 200px;
+    
+}
+#pod{
+
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+padding: 12px 20px 12px 20px;
+
+
+}
+
+.rating{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    justify-items: center;
+
+    margin-top:120px;
+
+}
+.up{
+   text-transform: uppercase; 
+}
 
 
 
