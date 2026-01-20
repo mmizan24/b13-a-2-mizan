@@ -55,12 +55,12 @@
   width: 130px;
   height: 50px;
   border-radius: 50px;
-  /* justify-content: center; */
+  justify-content: center;
   background: linear-gradient(to right, rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
   align-items: center;
-  gap: px;
+  gap: 8px;
   cursor: pointer;
-
+  border: none;
 }
 
 .menu {
@@ -71,14 +71,11 @@
 
 #pry-img {
   width: 20px;
-  /* filter: brightness(0) invert(1); */
+  height: auto;
   background: none;
   filter: invert(1);
-  /* color: white;
-    justify-content: space-between; */
-
-
-
+  margin: 0;
+  padding: 0;
 }
 
 
