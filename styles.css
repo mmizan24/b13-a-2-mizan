@@ -548,7 +548,58 @@ height: 72px;
 }
 
 
-
 /* meet the host....end ...................................................... */
 
+    /* footer part ...................  */
+
+    .foot {
+  background: url("./assets/footer-bg.png") center/cover no-repeat;
+  height: 400px; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: none; */
+  padding-left: 16px;
+  padding-right: 16px;
+ 
+}
+
+.foot-text {
+  text-align: center;
+  background: none;
+  
+}
+
+.foot-text h1 {
+  font-size: 80px;
+  font-weight: 1200px;
+  background: none;
+}
+
+
+
+.footer-icon {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+ background: none;
+ margin-bottom:150px;
+  
+  
+}
+
+.footer-icon img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+
+  
+
+
+   
+      
     
